@@ -1,0 +1,105 @@
+
+body{
+    margin:0;
+    text-align: center;
+}
+.top-most-div{
+    width: 100%;
+    height:665px;
+    background-color: #EDE6DB;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.home{
+    height:500px;
+}
+.Navigation{
+
+}
+.main-1{
+    height: 500px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px dotted #D7A86E;
+    border-right: 1px dotted #D7A86E;
+}
+.book-ticket{
+    font-weight: 500% ;
+    font-family: 'Sono', sans-serif;
+}
+.button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+    background: #738794;
+    background-image: -webkit-linear-gradient(top, #374047, #4d575e);
+    background-image: -moz-linear-gradient(top, #374047, #4d575e);
+    background-image: -ms-linear-gradient(top, #374047, #4d575e);
+    background-image: -o-linear-gradient(top, #374047, #4d575e);
+    background-image: linear-gradient(to bottom, #374047, #4d575e);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 19px 5px 20px;
+    text-decoration: none;
+  }
+  .carousel .carousel-item {
+    height: 100%;
+  }
+  .carousel-item img {
+      /* position: absolute; */
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+  
+  .btn:hover {
+    background: #b7bec2;
+    background-image: -webkit-linear-gradient(top, #b7bec2, #808487);
+    background-image: -moz-linear-gradient(top, #b7bec2, #808487);
+    background-image: -ms-linear-gradient(top, #b7bec2, #808487);
+    background-image: -o-linear-gradient(top, #b7bec2, #808487);
+    background-image: linear-gradient(to bottom, #b7bec2, #808487);
+    text-decoration: none;
+  }
+
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar-update{
+    background-color: #e8d9bf;
+    border-bottom: 1px solid white;
+    color: #1A3C40;
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #1A3C40;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #607074;
+}
+
+.form_login {
+    height:500px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;  
+}
